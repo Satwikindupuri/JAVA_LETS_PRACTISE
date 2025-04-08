@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ReverseArray {
 
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array: "); 
         int n = scanner.nextInt(); // Read the size of the array

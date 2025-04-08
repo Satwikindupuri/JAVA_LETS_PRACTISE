@@ -3,9 +3,9 @@ import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public class Frequency {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+        StringCheck str = sc.nextLine();
         int[] ar={1,2,3,3,4,5,1,3,4};
         
         HashMap<Character, Integer> hm = new LinkedHashMap<>();

@@ -2,14 +2,14 @@ import java.util.*;
 
 
 public class Anagram {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner sc=new Scanner(System.in);
         HashMap<Character,Integer> map1=new HashMap<>();
         HashMap<Character,Integer> map2=new HashMap<>();
         System.out.print("Enter the first string: ");
-        String str1=sc.nextLine();
+        StringCheck str1=sc.nextLine();
         System.out.print("Enter the second string: ");
-        String str2=sc.nextLine();
+        StringCheck str2=sc.nextLine();
         if(str1.length()==str2.length()){
             for(int i=0;i<str1.length();i++){
                 char ch=str1.charAt(i);

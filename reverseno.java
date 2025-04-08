@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class reverseno {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner sc= new Scanner(System.in);
         int n=sc.nextInt();
         List<Integer> list = new java.util.ArrayList<>();

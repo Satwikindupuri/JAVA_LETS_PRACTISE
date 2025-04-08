@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class contains {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList<>(); // Corrected List declaration
         System.out.println("Enter the number of elements: ");

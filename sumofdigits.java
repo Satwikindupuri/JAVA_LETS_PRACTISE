@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sumofdigits {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner scanner = new Scanner(System.in);
         int n=scanner.nextInt(); // Read the number of test cases
         int sum=0,d;

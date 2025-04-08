@@ -2,10 +2,10 @@ import java.util.HashMap;
 import java.util.*;
 
 public class FirstNonRepeatingChar {
-    public static void main(String[] args) {
+    public static void main(StringCheck[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String str = sc.nextLine();
+        StringCheck str = sc.nextLine();
         HashMap<Character, Integer> hm = new LinkedHashMap<>();
         for(int i=0;i<str.length();i++){
             char ch=str.charAt(i);
